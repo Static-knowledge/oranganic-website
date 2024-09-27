@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Organic Farming Logo" id="logo">
+        <h1>Organic Farming</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <section id="hero">
+    <h2>Pure, Natural, and Organic</h2>
+    <p>Discover the best organic products for a healthier lifestyle.</p>    
+  </section>
+
+  <section id="features">
+    <h2>Why Choose Us?</h2>
+    <div class="feature">
+      <h3>100% Organic</h3>
+      <p>All our products are certified organic and free from harmful chemicals.</p>
+    </div>
+    <div class="feature">
+      <h3>Eco-Friendly</h3>
+      <p>We use sustainable practices to protect our planet.</p>
+    </div>
+    <div class="feature">
+      <h3>Quality Guaranteed</h3>
+      <p>We ensure the highest quality in every product we offer.</p>
+    </div>
+  </section>
+
+  <section id="slideshow">
+    <h2>Our Products</h2>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="item1.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="item3.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="item4.jpg" style="width:100%">
+      </div>
+    </div>
+  </section>
+
+  <section id="toggle">
+    <button id="toggleButton">JOIN US</button>
+    <div id="content" style="display:none;">
+      <p>We invite you to join us on this journey towards a healthier, more sustainable future. Whether you’re a fellow farmer, a home gardener, or someone interested in organic produce, there’s something here for everyone. Follow our blog for tips, stories, and updates from the farm.
+
+       <br>thank you for being a part of our community. Together, we can make a difference, one seed at a <time datetime="" class="br"></time>
+        
+        Feel free to customize this content to better fit your farm’s unique story and practices. If you need more specific sections or additional posts, just let me know! </p>
+    </div>
+  </section>
+  <footer>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+    <div id="formMessage"></div>
+  </section>
+
+  
+    <p>© 2024 Organic Bliss. All rights reserved.</p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>

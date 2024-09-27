@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: rgba(98, 207, 102, 0.9);
+    color: white;
+    text-align: right;
+    padding: 1%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  
+  #logo {
+    border-radius: 50px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a {
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 2em 0;
+    background: url('of.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+  }
+  
+  #hero h2 {
+    font-size: 2.5em;
+    
+  }
+  
+  #hero p {
+    font-size: 1.2em;
+  }
+  
+
+  #features {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .feature {
+    margin: 1em 0;
+  }
+  
+  #slideshow {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    max-width: 50%;
+    max-height: 25%;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  #toggle {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  #toggleButton {
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact {
+    padding: 2em;
+    background-color: #f9f9f9;
+  }
+  
+  #contactForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #contactForm label {
+    margin: 0.5em 0 0.2em;
+  }
+  
+  #contactForm input, #contactForm textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  #contactForm button {
+    padding: 0.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: left;
+    padding: 1em 0;
+    background-color: #333;
+    color: rgb(7, 6, 6);
+  }
+  
